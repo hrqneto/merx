@@ -1,0 +1,77 @@
+/*FontFace*/
+
+@font-face {
+  font-family: 'Sarabun';
+  src: url('../fonts/Sarabun.woff2') format('woff2'), url('../fonts/Sarabun.woff') format('woff'), url('../fonts/Sarabun-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.woff2') format('woff2'), url('../fonts/Montserrat-Medium.woff') format('woff'), url('../fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.text_main {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #019768;
+}
+
+.text_main2 {
+  font-family: Montserrat;
+  font-size: 30px;
+  color: #000000;
+}
+section {
+  width: 100%;
+  min-height: 500px;
+  padding-top: 40px;
+
+}
+
+.background_section {
+  background-image: url(../../backgound1.png);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 97;
+  opacity: 1;
+  display: block;
+  padding: 0 
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-image: linear-gradient(to left, #012224, #003d3c, #005a4f, #00785e, #019768);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
