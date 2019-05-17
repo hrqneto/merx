@@ -14,16 +14,28 @@
   font-style: normal;
 }
 
-.text_main {
+.logo {
+  width: 210px;
+}
+.title_main {
   font-family: Montserrat;
   font-size: 20px;
   color: #019768;
 }
 
-.text_main2 {
+.title_main2 {
   font-family: Montserrat;
   font-size: 30px;
   color: #000000;
+}
+
+.text_main {
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  color: #3A3A3A;
+  font-family: Montserrat;
+  padding: 28px 0 0 0;
+  line-height: 1.5;
 }
 section {
   width: 100%;
@@ -31,16 +43,19 @@ section {
   padding-top: 40px;
 
 }
-
+.grid__section {
+  margin-top: 170px;
+}
 .background_section {
-  background-image: url(../../backgound1.png);
-  position: absolute;
-  top: 0px;
+  background-image: url(/static/media/backgound1.622aa242.png);
+  top: -40px;
   left: 0px;
-  z-index: 97;
-  opacity: 1;
   display: block;
-  padding: 0 
+  min-height: 1070px;
+  height: 780pX;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .App {
   text-align: center;
