@@ -35,7 +35,7 @@ function App() {
             <Col md='6' className='background_section2'>
             </Col>
             <Col md='1'/>
-            <Col md='4' className=''>
+            <Col md='4' className='background_section3'>
               <h1 className='title_main'>ABOUT US</h1>
               <h2 className='title_main2'>WHO WE ARE</h2>
             </Col>

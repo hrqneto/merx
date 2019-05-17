@@ -47,7 +47,7 @@ section {
   margin-top: 170px;
 }
 .background_section {
-  background-image: url("https://raw.githubusercontent.com/hrqneto/merx/master/src/backgound1.png");
+  background-image: url("https://raw.githubusercontent.com/hrqneto/merx/master/src/assets/img/1.png");
   top: -40px;
   left: 0px;
   display: block;
@@ -58,7 +58,18 @@ section {
   background-repeat: no-repeat;
 }
 .background_section2 {
-  background-image: url("https://raw.githubusercontent.com/hrqneto/merx/master/src/backgound1.png");
+  background-image: url("https://raw.githubusercontent.com/hrqneto/merx/master/src/assets/img/2.png");
+  top: -40px;
+  left: 0px;
+  display: block;
+  min-height: 1070px;
+  height: 780pX;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background_section3 {
+  background-color: #012224;
   top: -40px;
   left: 0px;
   display: block;
