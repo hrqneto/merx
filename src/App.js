@@ -16,7 +16,7 @@ function App() {
           <Row>
           <Col md='1'/>
             <Col md='4'>
-            <div>
+            <div className='grid__section'>
               <h1 className='title_main'>ABOUT US</h1>
               <h2 className='title_main2'>WHO WE ARE</h2>
               <p className='text_main'>We are a digital hub that aims to make the 
@@ -32,6 +32,14 @@ function App() {
             <Col md='1'/>
             <Col md='6' className='background_section'>
             </Col>
+            <Col md='6' className='background_section2'>
+            </Col>
+            <Col md='1'/>
+            <Col md='4' className=''>
+              <h1 className='title_main'>ABOUT US</h1>
+              <h2 className='title_main2'>WHO WE ARE</h2>
+            </Col>
+            <Col md='1'/>
           </Row>
       </section>
     </div>
