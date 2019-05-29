@@ -23,10 +23,26 @@
   color: #019768;
 }
 
+.text_main2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: white;
+}
+
 .title_main2 {
   font-family: Montserrat;
   font-size: 30px;
   color: #000000;
+}
+.title_how {
+  font-family: Montserrat;
+  font-size: 30px;
+  color: #019768;
+}
+.title_solution {
+  font-family: Montserrat;
+  font-size: 30px;
+  color: white;
 }
 
 .text_main {
@@ -45,6 +61,7 @@ section {
 }
 .grid__section {
   margin-top: 170px;
+  padding: 0 104px 0 104px; 
 }
 .background_section {
   background-image: url("https://raw.githubusercontent.com/hrqneto/merx/master/src/assets/img/1.png");
